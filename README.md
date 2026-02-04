@@ -8,7 +8,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 **Original Source**: [Kaggle/Synthetic/Your description - e.g., "Generated for healthcare analytics training"]  
 **Files Provided**:
 - [`Healthcare_Dataset.csv`](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) (55,500 rows and 15 columns - original)
-- [`Healthcare_cleaned.csv`](Uploading Healthcare_cleaned.csv…) (54,966 rows and 17 columns - analysis-ready)
+- [`Healthcare_cleaned.csv`](Healthcare_cleaned.csv…) (54,966 rows and 17 columns - analysis-ready)
 - `data_dictionary.md` (column definitions + cleaning notes)
 - ## Tools Used
 **Excel** 
