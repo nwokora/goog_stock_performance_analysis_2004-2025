@@ -5,6 +5,7 @@
 - [Tools Used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
+- [Analysis Findings](#analysis-findings)
 - 
 ## Project Overview
 This analysis of 55,500 patient records (54,966 after deduplication) from thousands of hospitals reveals how medical conditions influence patient volumes and how factors such as blood type, age, and gender impact their prevalence. It also helps to understand the operational bottlenecks, demographic patterns, and hospital performance to boost clinical efficiency and optimisation.
@@ -41,7 +42,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
    - Name column: Consistent formatting
    - Categorical: Trimmed whitespace (Medical Condition, Blood Type, etc.)
 
-2. **Smart Duplicate Detection**
+2. **Duplicate Detection**
    - Generated `Unique_ID` by concatenating: Name + Age + Gender + Blood Type + Date of Admission + Hospital + Discharge Date
    - **Found & removed 534 duplicates** → 54,966 unique patient records
    - Reset index + assigned `Admission_ID` as final unique identifier
@@ -82,7 +83,8 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 - Temporal patterns in emergency vs elective admissions
 
 **4. Analytical Methods Used**
-## Results/Findings
+
+## Analysis Findings
 ### 10 Business Questions Answered
 
 | Q# | Question | Key Finding |
