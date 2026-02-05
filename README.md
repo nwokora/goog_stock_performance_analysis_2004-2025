@@ -6,7 +6,7 @@
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
 - [Analysis Findings](#analysis-findings)
-- 
+- [Insights and Recommendations](#insights-and-recommendations)
 ## Project Overview
 This analysis of 55,500 patient records (54,966 after deduplication) from thousands of hospitals reveals how medical conditions influence patient volumes and how factors such as blood type, age, and gender impact their prevalence. It also helps to understand the operational bottlenecks, demographic patterns, and hospital performance to boost clinical efficiency and optimisation.
 
@@ -100,7 +100,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 | Q9 | Admission Types | **Emergency/Elective proportions** |
 | Q10| LoS Time Trends | **Temporal efficiency patterns** |
 
-### 🎯 Major Insights
+## Insights and Recommendations
 - **Asthma crisis**: Highest volume + longest stays = operations bottleneck
 - **Hypertension testing**: 33.5% inconclusive = diagnostic urgency  
 - **Arthritis demographics**: 30-50yo women peak = targeted screening
