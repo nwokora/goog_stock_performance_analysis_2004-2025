@@ -18,8 +18,8 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 **License**: [CC0/Public Domain - specify if known, or "synthetic dataset for portfolio demonstration"]  
 **Original Source**: [Kaggle/Synthetic/Your description - e.g., "Generated for healthcare analytics training"]  
 **Files Provided**:
-- [`Healthcare_Dataset.csv`](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) (55,500 rows and 15 columns - original)
-- [`Healthcare_cleaned.csv`](Healthcare_cleaned.csv) (54,966 rows and 17 columns - analysis-ready)
+- `Healthcare_Dataset.csv` (55,500 rows and 15 columns - original) [Download](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
+- `Healthcare_cleaned.csv` (54,966 rows and 17 columns - analysis-ready)
 - `data_dictionary.md` (column definitions + cleaning notes)
 
 ## Tools Used
@@ -95,12 +95,12 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 | Q2 | Which Blood Type Correlates with the Highest Diabetes Prevalence? | **A+ highest prevalence (13%)** |
 | Q3 | How does the average Length of Stay (LoS) vary by medical condition, and which has the highest? | **Asthma: 15.7 days** |
 | Q4 | How are test result categories (Abnormal, Inconclusive, Normal) distributed as percentages across medical conditions? | **Hypertension: 33.5%** |
-| Q5 | Arthritis Peak Bracket | **30-50 Female (1,391 cases)** |
-| Q6 | Top 10 Hospitals | **Volume leaders identified** |
-| Q7 | Hospital Density | **Condition specialization patterns** |
-| Q8 | Top 5 Insurers | **Market share distribution** |
-| Q9 | Admission Types | **Emergency/Elective proportions** |
-| Q10| LoS Time Trends | **Temporal efficiency patterns** |
+| Q5 | What Age-Gender Bracket Peaks in Arthritis Cases? | **30-50 Female (1,391 cases)** |
+| Q6 | Top 10 Hospitals by Admission Volumes? | **Volume leaders identified** |
+| Q7 | Medical Conditions by Hospital Density? | **Condition specialization patterns** |
+| Q8 | Top 5 Insurance Providers? | **Market share distribution** |
+| Q9 | Patients by Admission Type? | **Emergency/Elective proportions** |
+| Q10| Average Length of Stay Trend Over Time? | **Temporal efficiency patterns** |
 
 ## Insights and Recommendations
 - **Asthma crisis**: Highest volume + longest stays = operations bottleneck
