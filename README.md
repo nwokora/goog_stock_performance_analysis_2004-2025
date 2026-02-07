@@ -91,10 +91,10 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 | Q# | Question | Key Finding |
 |----|----------|-------------|
-| Q1 |Medical Condition vs Age Distribution of Patients| **Asthma dominates caseload** |
-| Q2 | Blood Type + Diabetes| **A+ highest prevalence (13%)** |
-| Q3 | Longest Avg LoS | **Asthma: 15.7 days** |
-| Q4 | Highest Inconclusive Tests | **Hypertension: 33.5%** |
+| Q1 | Medical Condition vs Age Distribution of Patients | **Asthma dominates caseload** |
+| Q2 | Which Blood Type Correlates with the Highest Diabetes Prevalence? | **A+ highest prevalence (13%)** |
+| Q3 | How does the average Length of Stay (LoS) vary by medical condition, and which has the highest? | **Asthma: 15.7 days** |
+| Q4 | How are test result categories (Abnormal, Inconclusive, Normal) distributed as percentages across medical conditions? | **Hypertension: 33.5%** |
 | Q5 | Arthritis Peak Bracket | **30-50 Female (1,391 cases)** |
 | Q6 | Top 10 Hospitals | **Volume leaders identified** |
 | Q7 | Hospital Density | **Condition specialization patterns** |
