@@ -1,4 +1,5 @@
 # MultiHospital-HealthcareEDA
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -7,6 +8,7 @@
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
 - [Analysis Findings](#analysis-findings)
 - [Insights and Recommendations](#insights-and-recommendations)
+  
 ## Project Overview
 This analysis of 55,500 patient records (54,966 after deduplication) from thousands of hospitals reveals how medical conditions influence patient volumes and how factors such as blood type, age, and gender impact their prevalence. It also helps to understand the operational bottlenecks, demographic patterns, and hospital performance to boost clinical efficiency and optimisation.
 
@@ -89,7 +91,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 | Q# | Question | Key Finding |
 |----|----------|-------------|
-| Q1 | Highest Patient Volume | **Asthma dominates caseload** |
+| Q1 |Medical Condition vs Age Distribution of Patients| **Asthma dominates caseload** |
 | Q2 | Blood Type + Diabetes| **A+ highest prevalence (13%)** |
 | Q3 | Longest Avg LoS | **Asthma: 15.7 days** |
 | Q4 | Highest Inconclusive Tests | **Hypertension: 33.5%** |
