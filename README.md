@@ -46,7 +46,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 **Duplicate Detection**
 - Generated `Unique_ID` by concatenating: Name + Age + Gender + Blood Type + Date of Admission + Hospital + Discharge Date
-- **Found & removed 534 duplicates** → 54,966 unique patient records
+- Found & removed 534 duplicates → 54,966 unique patient records
 - Reset index + assigned `Admission_ID` as final unique identifier
 
 **Outlier Treatment (Domain-Driven)**
