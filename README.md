@@ -96,11 +96,11 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 | Q3 | How does the average Length of Stay (LoS) vary by medical condition, and which has the highest? | Shows uniform average LoS of 15 days across medical conditions. (Higher than expected).  |
 | Q4 | How are test result categories (Abnormal, Inconclusive, Normal) distributed as percentages across medical conditions? | All conditions have basically the same test result split, about 33% normal, 33% abnormal, 33% inconclusive. The perfect uniformity of the dataset shows a more synthetic nature than a real-life clinical dataset. |
 | Q5 | What Age-Gender Bracket Peaks in Arthritis Cases? | Arthritis cases for both males and females are low under age 30, peak strongly between 30-70, then drop off after 70, which doesn't show real-world patterns where we would expect cases to stay high or rise in older age groups. |
-| Q6 | Top 10 Hospitals by Admission Volumes? | **Volume leaders identified** |
-| Q7 | Medical Conditions by Hospital Density? | **Condition specialization patterns** |
-| Q8 | Top 5 Insurance Providers? | **Market share distribution** |
-| Q9 | Patients by Admission Type? | **Emergency/Elective proportions** |
-| Q10| Average Length of Stay Trend Over Time? | **Temporal efficiency patterns** |
+| Q6 | Top 10 Hospitals by Admission Volumes? | Among the 39,876 hospitals treating our 54,966 patients, LLC Smith tops the list with just 44 admissions. This suggests most facilities handle only a handful of cases each. |
+| Q7 | Medical Conditions by Hospital Density? | Medical conditions appear evenly spread (16%) across hospitals regardless of their size or location, which feels unrealistic. Real-world data would show bigger hospitals handling more complex cases like cancer.  |
+| Q8 | Top 5 Insurance Providers? | The top 5 insurance providers are tightly spread: Cigna edges out at 20.3%, followed closely by Medicare (20.1%), UnitedHealthcare (20.0%), Blue Cross (19.9%), and Aetna (19.7%) |
+| Q9 | Patients by Admission Type? | Admission types perfectly balanced at ~33% each. This uniform split confirms random assignment, not operational reality, where emergency, for instance, dominates the spread, and elective fills schedule slots. |
+| Q10| Average Length of Stay Trend Over Time? | LoS stays around 15 days from 2019-2024, with 2024 just nudging toward 16th day |
 
 ## Insights and Recommendations
 - **Asthma crisis**: Highest volume + longest stays = operations bottleneck
