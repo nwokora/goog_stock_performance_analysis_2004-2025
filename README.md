@@ -91,8 +91,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 | Q# | Question | Key Finding |
 |----|----------|-------------|
-| Q1 | Medical Condition vs Age Distribution of Patients | - Children represent ~2-3% of hospital admissions. Though rarely hospitalised for adult-onset conditions like hypertension(11), diabetes(16), and arthritis(21).
-- Arthritis dominates overall volume (9218 patients) but shows balanced age distribution |
+| Q1 | Medical Condition vs Age Distribution of Patients | - Children represent ~2-3% of hospital admissions. Though rarely hospitalised for adult-onset conditions like hypertension(11), diabetes(16), and arthritis(21). - Arthritis dominates overall volume (9218 patients) but shows balanced age distribution |
 | Q2 | Which Blood Type Correlates with the Highest Diabetes Prevalence? | **A+ highest prevalence (13%)** |
 | Q3 | How does the average Length of Stay (LoS) vary by medical condition, and which has the highest? | **Asthma: 15.7 days** |
 | Q4 | How are test result categories (Abnormal, Inconclusive, Normal) distributed as percentages across medical conditions? | **Hypertension: 33.5%** |
