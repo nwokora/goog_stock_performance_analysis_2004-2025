@@ -113,3 +113,6 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 ![Arthritis Demographics](figures/q5_arthritis_demo.png)
 
 **Complete analysis**: `Healthcare_Analysis.ipynb` (interactive charts + code)
+
+## Author
+[Somadina Nwokora](https://www.linkedin.com/in/somadina-nwokora/)
