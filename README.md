@@ -106,10 +106,22 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 | Q7 | Medical Conditions by Hospital Density? | Medical conditions appear evenly spread (16%) across hospitals regardless of their size or location, which feels unrealistic. Real-world data would show bigger hospitals handling more complex cases like cancer.  |
 | Q8 | Top 5 Insurance Providers? | The top 5 insurance providers are tightly spread: Cigna edges out at 20.3%, followed closely by Medicare (20.1%), UnitedHealthcare (20.0%), Blue Cross (19.9%), and Aetna (19.7%) |
 | Q9 | Patients by Admission Type? | Admission types perfectly balanced at ~33% each. This uniform split confirms random assignment, not operational reality, where emergency, for instance, dominates the spread, and elective fills schedule slots. |
-| Q10| Average Length of Stay Trend Over Time? | [LoS stays around 15 days from 2019-2024, with 2024 just nudging toward 16th day](<img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/7b4854cb-bb3c-4556-995f-5001a6a28374" />
-) |
+| Q10| Average Length of Stay Trend Over Time? |  |
 
 ## Insights
+1. **Adult-Dominated Chronic Care** (95%+ volume 18-64+)  
+   • Arthritis leads overall (9,218 patients), rising from ~800 cases under 30 to peak at ~1,300 during prime working years (30-70), then easing to ~1,000 for 70+. Working-age adults also carry the burden, but contrary to the dataset, the incidence of real arthritis continues to rise past 70.  
+   • Pediatrics minimal (2-3%, 11-27/condition), realistic for what you would expect in a real general hospital, not a children's specialty center.
+   
+2. **Uniformity Anomalies** (Synthetic Generator Signatures)  
+   • Test results split almost perfectly, ~33% Abnormal/Inconclusive/Normal across every single condition, showing synthetic data uniformity.  
+   • Diabetes cases spread evenly across blood types (12-13% range)—A+ 'wins' by a microscopic gap that's clinically meaningless.  
+   • The 6 medical conditions show nearly identical age patterns across all age groups, showing synthetic uniformity, not real clinical variation.
+   
+3. **Unrealistic Clinical Metrics**
+   • Average Length of Stay (15.4-15.7) across Diabetes to Asthma) makes no clinical sense because real-world hospital stays for common conditions like Diabetes and Asthma are far shorter, typically 2-5 days on average.
+   • Hypertension (11) and Arthritis (21) are hardly seen in real-world clinical datasets, further confirming the dataset's synthetic nature.
+
 - **Asthma crisis**: Highest volume + longest stays = operations bottleneck
 - **Hypertension testing**: 33.5% inconclusive = diagnostic urgency  
 - **Arthritis demographics**: 30-50yo women peak = targeted screening
@@ -118,6 +130,17 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 ## Recommendations
 
 ## Visualizations
+### 📊 Visualizations
+<details>
+<summary>Click to see chart insights</summary>
+
+| Chart | Key Insight |
+|-------|-------------|
+| Patient Volume | Hospital A leads with 25% total admissions |
+| LoS by Condition | Arthritis: longest average stay |
+| Arthritis Demographics | Peaks 30-70, drops after 70 (data anomaly) |
+</details>
+
 ![Patient Volume](figures/q1_patient_volume.png) ![LoS by Condition](figures/q3_los_condition.png)  
 ![Arthritis Demographics](figures/q5_arthritis_demo.png)
 
