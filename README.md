@@ -96,8 +96,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 | Q# | Question | Key Finding |
 |----|----------|-------------|
-| Q1 | Medical Condition vs Age Distribution of Patients | • [Pediatrics (0-17) represent ~2-3% of hospital admissions, although adult-onset conditions like hypertension(11), diabetes(16), and arthritis(21) are rare in pediatric cases](<img src="images/heatmap.png" width="600" height="400">
-). <br>• Arthritis dominates overall volume (9218 patients) but shows balanced age distribution. |
+| Q1 | Medical Condition vs Age Distribution of Patients | • Pediatrics (0-17) represent ~2-3% of hospital admissions, although adult-onset conditions like hypertension(11), diabetes(16), and arthritis(21) are rare in pediatric cases. <br>• Arthritis dominates overall volume (9218 patients) but shows balanced age distribution. |
 | Q2 | Which Blood Type Correlates with the Highest Diabetes Prevalence? | A+ blood type takes the lead with 13%, but uniform diabetes distribution across blood types (12.0-13.0%) shows no significant blood type-diabetes correlation in the dataset. |
 | Q3 | How does the average Length of Stay (LoS) vary by medical condition, and which has the highest? | Shows uniform average LoS of 15 days across medical conditions. (Higher than expected).  |
 | Q4 | How are test result categories (Abnormal, Inconclusive, Normal) distributed as percentages across medical conditions? | All conditions have basically the same test result split, about 33% normal, 33% abnormal, 33% inconclusive. The perfect uniformity of the dataset shows a more synthetic nature than a real-life clinical dataset. |
@@ -124,6 +123,9 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
    • Hypertension (11) and Arthritis (21) are hardly seen in real-world clinical datasets, further confirming the dataset's synthetic nature.
 
 ## Recommendations
+Multiple synthetic artefacts invalidate it for real-world healthcare insights; therefore, the dataset should not qualify for any serious healthcare analysis or modelling.
+
+
 
 ## Visualizations
 ### 📊 Visualizations
