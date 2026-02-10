@@ -118,14 +118,10 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
    • Diabetes cases spread evenly across blood types (12-13% range)—A+ 'wins' by a microscopic gap that's clinically meaningless.  
    • The 6 medical conditions show nearly identical age patterns across all age groups, showing synthetic uniformity, not real clinical variation.
    
-3. **Unrealistic Clinical Metrics**
-   • Average Length of Stay (15.4-15.7) across Diabetes to Asthma) makes no clinical sense because real-world hospital stays for common conditions like Diabetes and Asthma are far shorter, typically 2-5 days on average.
+3. **Unrealistic Clinical Metrics**  
+   • 33.5% for inconclusive cases of hypertension stand out as unusual in a real-world healthcare dataset.  
+   • Average Length of Stay (15.4-15.7) across Diabetes to Asthma) makes no clinical sense because real-world hospital stays for common conditions like Diabetes and Asthma are far shorter, typically 2-5 days on average.   
    • Hypertension (11) and Arthritis (21) are hardly seen in real-world clinical datasets, further confirming the dataset's synthetic nature.
-
-- **Asthma crisis**: Highest volume + longest stays = operations bottleneck
-- **Hypertension testing**: 33.5% inconclusive = diagnostic urgency  
-- **Arthritis demographics**: 30-50yo women peak = targeted screening
-- **System fragmentation**: 39K hospitals averaging 1.4 patients each
 
 ## Recommendations
 
