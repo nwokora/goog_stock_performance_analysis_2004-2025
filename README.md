@@ -19,9 +19,9 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 ## Files Provided
 **Post-Cleaning**: 54,966 rows (534 duplicates removed), and 17 columns (Admission_ID and Length of Stay added)    
 **Files Provided**:
-- `Healthcare_Dataset.csv` (55,500 rows and 15 columns - original) [Download](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
-- `Healthcare_cleaned.csv` (54,966 rows and 17 columns - analysis-ready)
-- `data_dictionary.md` (column definitions + cleaning notes)
+- **Original Dataset**: (55,500 rows and 15 columns - original) [Download](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
+- **Post-Cleaning**: (54,966 rows and 17 columns - analysis-ready)[Download](./Healthcare_dataset_cleaned.csv)
+- Data Dictionary.md` (column definitions + cleaning notes)
 
 ## Data Sources
 A synthetic healthcare dataset containing 55,500 patient records across 15 columns, including medical condition, hospital, doctor, test result, etc., by [**Prasad Patil**](https://www.kaggle.com/prasad22).
