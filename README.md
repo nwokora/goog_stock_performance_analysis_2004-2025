@@ -125,8 +125,7 @@ Arthritis peaks in working years despite real-world rises past 70.
 4. **Unrealistic Clinical Metrics**  
    • 33.5% for inconclusive cases of hypertension stand out as unusual in a real-world healthcare dataset.  
    • Average Length of Stay Trend for the year, as can be seen below, makes no clinical sense since real-world situations should fall around 2-5 days  for the medical conditions, except for cancer, which sometimes stays longer.
-    (<img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/696591b6-5048-4e6a-9500-bc169b70c9cd" />
-)
+    <img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/696591b6-5048-4e6a-9500-bc169b70c9cd" />  
    • Hypertension (11) and Arthritis (21) are hardly seen in real-world pediatric datasets.
 
 ## Recommendations
