@@ -112,6 +112,10 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
    • Pediatrics minimal (2-3%, 11-27/condition), realistic for what you would expect in a real general hospital, not a children's specialty center.
    (<img width="699" height="415" alt="Patient volume vs Age group" src="https://github.com/user-attachments/assets/a0f503fc-6462-4df7-b65e-eadaf29cabf3" />
 )
+Arthritis peaks in working years despite real-world rises past 70.
+
+![Arthritis Age Trends](images/arthritis-chart.png)
+
    
 3. **Uniformity Anomalies** (Synthetic Generator Signatures)  
    • Test results split almost perfectly, ~33% Abnormal/Inconclusive/Normal across every single condition, showing synthetic data uniformity.  
@@ -120,8 +124,10 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
    
 4. **Unrealistic Clinical Metrics**  
    • 33.5% for inconclusive cases of hypertension stand out as unusual in a real-world healthcare dataset.  
-   • Average Length of Stay (15.4-15.7) across Diabetes to Asthma) makes no clinical sense because real-world hospital stays for common conditions like Diabetes and Asthma are far shorter, typically 2-5 days on average.   
-   • Hypertension (11) and Arthritis (21) are hardly seen in real-world clinical datasets, further confirming the dataset's synthetic nature.
+   • Average Length of Stay Trend for the year, as can be seen below, makes no clinical sense since real-world situations should fall around 2-5 days  for the medical conditions, except for cancer, which sometimes stays longer.
+     ![Average LoS Trends](<img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/696591b6-5048-4e6a-9500-bc169b70c9cd" />
+)
+   • Hypertension (11) and Arthritis (21) are hardly seen in real-world pediatric datasets.
 
 ## Recommendations
 Multiple synthetic artefacts invalidate it for real-world healthcare insights; therefore, the dataset should not qualify for any serious healthcare analysis or modelling.
