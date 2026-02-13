@@ -111,7 +111,7 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
    • Arthritis leads overall (9,218 patients), rising from ~800 cases under 30 to peak at ~1,300 during prime working years (30-70), then easing to ~1,000 for 70+. Working-age adults also carry the burden, but contrary to the dataset, the incidence of real arthritis continues to rise past 70.  
    • Pediatrics minimal (2-3%, 11-27/condition), realistic for what you would expect in a real general hospital, not a children's specialty center.
    <img width="699" height="415" alt="Patient volume vs Age group" src="https://github.com/user-attachments/assets/a0f503fc-6462-4df7-b65e-eadaf29cabf3" />
-   
+
 2. **Uniformity Anomalies** (Synthetic Generator Signatures)  
    • Test results split almost perfectly, ~33% Abnormal/Inconclusive/Normal across every single condition, showing synthetic data uniformity.  
    • Diabetes cases spread evenly across blood types (12-13% range)—A+ 'wins' by a microscopic gap that's clinically meaningless.  
