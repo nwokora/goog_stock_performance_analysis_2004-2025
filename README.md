@@ -119,9 +119,9 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
    
 4. **Unrealistic Clinical Metrics**  
    • 33.5% for inconclusive cases of hypertension stand out as unusual in a real-world healthcare dataset.  
-   • Average Length of Stay Trend for the year, as can be seen below, makes no clinical sense since real-world situations should fall around 2-5 days  for the medical conditions, except for cancer, which sometimes stays longer.
-    <img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/696591b6-5048-4e6a-9500-bc169b70c9cd" />  
    • Hypertension (11) and Arthritis (21) are hardly seen in real-world pediatric datasets.
+   • Average Length of Stay Trend for the year, as can be seen below, makes no clinical sense since real-world situations should fall around 2-5 days  for the medical conditions, except for cancer, which sometimes stays longer.
+    <img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/696591b6-5048-4e6a-9500-bc169b70c9cd" /> 
 
 ## Recommendations
 Multiple synthetic artefacts invalidate it for real-world healthcare insights; therefore, the dataset should not qualify for any serious healthcare analysis or modelling.
