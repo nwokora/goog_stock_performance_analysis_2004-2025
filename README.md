@@ -38,57 +38,45 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
 **Workflow**: Excel preview → Python cleaning → Pandas analysis → Matplotlib charts
 
 ## Data Cleaning and Preparation
-**Raw Dataset**: 55,500 rows × 15 columns  
-**Clean Dataset**: 54,966 rows (534 duplicates = **0.96%** improvement), and 17 columns.
+**Raw dataset**: 5279 rows × 7 columns (pre-wrangling).  
+**Processed dataset**: 5279 rows, and 11 columns(4 added).
 
-### Key Cleaning Steps:
+### Data Quality Check:
 
 **Column Standardisation**
-- Numeric/Date columns: Type conversion (`Age`, `Billing Amount`, Date of Admission, `Discharge Date)
-- Name column: Consistent formatting
-- Categorical: Trimmed whitespace (Medical Condition, Blood Type, etc.)
+- Datetime standardisation `df["date"] = pd.to_datetime(df["date"])`  
+  *Converts string dates to proper datetime objects*
+- Date column indexing `df = df.set_index("date").sort_index()`  
+  *Transforms date column into date index for analysis*  
 
-**Duplicate Detection**
-- Generated `Unique_ID` by concatenating: Name + Age + Gender + Blood Type + Date of Admission + Hospital + Discharge Date
-- Found & removed 534 duplicates → 54,966 unique patient records
-- Reset index + assigned `Admission_ID` as final unique identifier
+**Missing Value Check**  
+- Check for missing value `df.isna().sum()`.  
+  *(All columns: No missing value)*  
+  
+**Duplicate Check**
+- Index dates: `df.index.duplicated().sum()` → *0 (Unique dates)*
+- Full rows:   `df.duplicated().sum()`     → *0 (No identical rows)*
 
-**Outlier Treatment (Domain-Driven)**
-   | Column | Issue | Treatment | Rationale |
-   |--------|-------|-----------|-----------|
-   | Age | None | None | All values realistic (0-120) |
-   | Billing Amount | 106 negative values | Flagged as refunds | Common in healthcare datasets |
+### Feature Engineering  
+- Daily price range `df["range"] = df["high"] - df["low"]`  
+- Daily % price change `df["return"] = df["close"].pct_change()`  
+- 20-day and 50-day Moving average `df["MA20"] = df["close"].rolling(window=20).mean()` and `df["MA50"] = df["close"].rolling(window=50).mean()`  
 
-**Feature Engineering**
-- **Calculated Length of Stay (LoS)**: Discharge Date - Admission Date
-- Dropped temporary `Unique_ID` column
-
-**✅ Validation**: No missing values detected. All distributions are realistic for the healthcare domain.
-
-**Full pipeline**: `01_data_cleaning.py` (reproducible + commented)
-
-## Exploratory Data Analysis and Data Analysis
-
-**Dataset Analyzed**: 54,966 cleaned patient records × 39,876 hospitals  
-**Objective**: Systematically answer 10 core business questions
-
-### Technical Approach
-
-**Univariate Analysis**
-- Distribution analysis by Medical Condition, Age, Gender, Blood Type
-- Summary statistics (mean, counts) for LoS, Billing Amount
-- Frequency tables for categorical variables
-
-**Bivariate Analysis** 
-- Cross-tabulations: Condition × Age Bracket, Condition × Gender
-- Groupby operations: Hospital volume by condition
-- Pivot tables: Admission Type proportions
-
-**Time-Series Analysis**
-- LoS trends over admission dates
-- Temporal patterns in emergency vs elective admissions
+## Exploratory Data Analysis and Data Analysis  
 
 **Analytical Methods Used**
+
+| Method | Purpose | Implementation |
+|--------|---------|----------------|
+| **Descriptive Statistics** | Dataset overview | `df.describe()` |
+| **Daily Returns** | Performance measurement | `df['close'].pct_change()` |
+| **Moving Averages** | Trend identification | `rolling(20/50).mean()` |
+| **Volatility Analysis** | Risk assessment | `std() × √252` (30.6% result) |
+| **Data Quality Checks** | Reliability validation | `isna().sum()`, `duplicated()` |
+| **Feature Engineering** | Enhanced analysis | Range, returns, MAs created |
+
+**Key Financial Metrics Calculated:**
+
 
 ## Analysis Findings
 ### 10 Business Questions Answered
