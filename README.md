@@ -84,9 +84,9 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
 |---| ---------|--------|
 | **Q1** | **Which year saw the highest trading activity in GOOG shares, and what drove the volume spikes?** | 2005 saw the highest trading activity in GOOG shares (~108 billion), driven by the post-IPO rush. 2025 had the lowest (~4 billion) due to incomplete year data.|
 | **Q2** | **Which year had the highest average daily trading volume for GOOG shares, and why?**  | 2005 dominated GOOG's average daily trading volume (429 million shares/day) due to post-IPO excitement, while 2024 had the lowest (20 million shares/day) amid stock maturity and splits. |
-| **Q3** | **How do GOOG's average daily returns vary by month across 2004-2025?** | A: 0 missing values, 0 duplicates = Dataset reliable |
-| **Q4** | **GOOG's closing price evolution from IPO (2004) to 2025, including performance during major stress periods like the 2008 crisis, 2020 COVID crash, and 2022 bear market?** | A: Volume spikes align with 5%+ return days = News/earnings driven |
-| **Q5** | **How do GOOG's 20-day and 50-day moving averages reveal short-term trends and trading signals from 2020-2025?** | A: |
+| **Q3** | **How do GOOG's average daily returns vary by month across 2004-2025?** | The monthly seasonality patterns of GOOG's 2004-2025 average daily returns show October as the strongest and February as the weakest. |
+| **Q4** | **GOOG's closing price evolution from IPO (2004) to 2025, including performance during major stress periods like the 2008 crisis, 2020 COVID crash, and 2022 bear market?** | GOOG showed 82x growth from ~$2.50 (2004 IPO) to ~$204 (2025). Handled 2008 (-55%, quick bounce), 2020 COVID (-30%, sharp recovery), 2022 (-40%, steady climb back). |
+| **Q5** | **How do GOOG's 20-day and 50-day moving averages reveal short-term trends and trading signals from 2020-2025?** | GOOG's 20-day and 50-day moving averages (MAs) reveal short-term trends through their direction and crossovers from 2020-2025. |
 
 
 ## Recommendations
