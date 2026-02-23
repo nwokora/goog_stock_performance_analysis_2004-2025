@@ -82,7 +82,7 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
 ### 5 Business Questions Answered
 | Q | Question | Result |
 |---| ---------|--------|
-| **Q1** | **Which year saw the highest trading activity in GOOG shares, and what drove the volume spikes?** | A: **30.6% annual volatility** = Moderate-high risk (typical Big Tech)|
+| **Q1** | **Which year saw the highest trading activity in GOOG shares, and what drove the volume spikes?** | 2005 saw the highest trading activity in GOOG shares (~108 billion), driven by the post-IPO rush. 2025 had the lowest (~4 billion) due to incomplete year data.|
 | **Q2** | **GOOG's closing price evolution from IPO (2004) to 2025, including performance during major stress periods like the 2008 crisis, 2020 COVID crash, and 2022 bear market?** | A: MA20 > MA50 = Yes, bullish trend confirmed |
 | **Q3** | **Which year had the highest average daily trading volume for GOOG shares, and why?** | A: 0 missing values, 0 duplicates = Dataset reliable |
 | **Q4** | **How do GOOG's average daily returns vary by month across 2004-2025?** | A: Volume spikes align with 5%+ return days = News/earnings driven |
