@@ -14,11 +14,11 @@
 - [Author](#author)
 
 ## Project Overview
-This analysis of 55,500 patient records (54,966 after deduplication) from thousands of hospitals reveals how medical conditions influence patient volumes and how factors such as blood type, age, and gender impact their prevalence. It also helps to understand the operational bottlenecks, demographic patterns, and hospital performance to boost clinical efficiency and optimisation.
+Comprehensive analysis of Alphabet Inc. (GOOG) daily OHLCV stock data spanning the complete post IPO history (Aug 19, 2004 - Aug 2025). This project shows the stock volatility over 20 years, and Tracked GOOG through 3 massive market crashes of 2008 meltdown, COVID chaos, and 2022 bear market
+
+Skills demonstrated in this analysis include; data import and cleanup → crisis performance insights → clean matplotlib visualizations, and critical thinking, making it suitable for financial analytics tasks.
 
 ## Files Provided    
-  
-## Data Dictionary.md` (column definitions + cleaning notes)
 
 ## Data Sources
 2004-2025 Google Stock Dataset (5,279 rows × 7 columns) [Download](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)
