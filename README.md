@@ -14,9 +14,10 @@
 - [Author](#author)
 
 ## Project Overview
-This comprehensive analysis of Alphabet Inc.' daily OHLCV stock (GOOG), reveals an interesting 20-year growth trend that saw the shares move from ~2.50 (August 19, 2004) to ~200 in 20 years (August 19, 2004 to August 2025), after it first entered its Initial Public Offering (IPO) on August 19, 2004.  
+This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals a remarkable 20-year growth trajectory that saw the shares move from ~2.50 (August 19, 2004) to ~200 in 20 years (August 19, 2004 to August 2025), after it first entered its Initial Public Offering (IPO) on August 19, 2004.  
 It further narrows down the trend to mirror the 3 massive market crashes of the 2008 crisis, the COVID chaos, and the 2022 bear market.  
-Skills demonstrated in this analysis include: data import and cleanup → crisis performance insights → clean matplotlib visualizations, and soft skills such as critical thinking, and problem-solving, making it suitable for financial analytics insights.
+Skills demonstrated include: data import/cleanup, crisis performance insights, clean matplotlib visualizations, as well as critical thinking and problem-solving, ideal for financial analysis insights.
+
 
 ## Files Provided    
 
