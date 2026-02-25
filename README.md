@@ -3,14 +3,14 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Files Provided](#files-provided)
-- [Data Sources](#data-sources)
+- [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
-- [Analysis Findings](#analysis-findings)
-- [Insights](#insights)
-- [Recommendations](#recommendations)
-- [Visualizations](#visualizations)
+- [Analysis Finding](#analysis-finding)
+- [Insight](#insight)
+- [Recommendation](#recommendation)
+- [Visualization](#visualization)
 - [Author](#author)
 
 ## Project Overview
@@ -21,7 +21,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 
 ## Files Provided    
 
-## Data Sources
+## Data Source
 2004-2025 Google Stock Dataset (5,279 rows × 7 columns) [Download](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)
 
 ## Tools Used
@@ -33,7 +33,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 - `pandas` (data cleaning and preparation)
 - `matplotlib` (creates visualization)
 
-**Workflow**: Excel preview → Python cleaning → Pandas analysis → Matplotlib charts
+**Workflow**: Excel preview → Pandas cleaning & analysis → Matplotlib charts
 
 ## Data Cleaning and Preparation
 
@@ -74,7 +74,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 **Key Financial Metrics Calculated:**
 
 
-## Analysis Findings
+## Analysis Finding
 ### 5 Business Questions Answered
 | Q | Question | Result |
 |---| ---------|--------|
@@ -85,12 +85,15 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 | **Q5** | **How do GOOG's 20-day and 50-day moving averages reveal short-term trends and trading signals from 2020-2025?** | GOOG's 20-day and 50-day moving averages (MAs) reveal short-term trends through their direction and crossovers from 2020-2025. |
 
 
-## Recommendations
+## Insight
+
+
+## Recommendation
 Multiple synthetic artefacts invalidate it for real-world healthcare insights; therefore, the dataset should not qualify for any serious healthcare analysis or modelling.
 
 
 
-## Visualizations
+## Visualization
 
 
 
