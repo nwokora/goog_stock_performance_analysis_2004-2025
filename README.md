@@ -87,13 +87,17 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 
 ## Insight
 ### 1. Trading Volume Pattern
-When Google launched its IPO, 2005 exploded with massive trading volume, the highest in both total shares traded and average daily volume. This is largely due to the rush to own shares. As the stock appreciated post-IPO, volumes declined due to institutionalised trading. 2025 had the lowest total volume (incomplete year), and 2024 had the lowest average daily volume.  
+When Google launched its IPO, 2005 exploded with massive trading volume, the highest in both total shares traded and average daily volume. This is largely due to the rush to own shares. As the stock appreciated post-IPO, volumes declined due to institutionalised trading. 2025 had the lowest total volume (incomplete year), and 2024 had the lowest average daily volume.<img width="981" height="388" alt="GOOG Total Trading Volume" src="https://github.com/user-attachments/assets/abe3e0d9-1a7f-4c03-bf6f-bd75224de8f2" />
+
 
 ### 2. Monthly Returns Pattern  
-Looking at average returns by month, October consistently delivers the highest gains for GOOG investors. On the other hand, investors earned less or even lost money in the months of February, June, and August.
+Looking at average returns by month, October consistently delivers the highest gains for GOOG investors. On the other hand, investors earned less or even lost money in the months of February, June, and August.  
+![GOOG Average Daily Return by Month](<img width="892" height="449" alt="GOOG Ave Daily Return" src="https://github.com/user-attachments/assets/ce4a59ef-70aa-436a-b6d8-9cf01f70a9e4" />
+)
 
 ### 3. Stock Volatility Amid Crisis  
 GOOG stock bounces back strongly from every crisis. Handled the 2008 panic with quick recovery, flew back fast after COVID thanks to the tech boom, and steadily climbed out of the 2022 slowdown, showing the stock's proven ability to recover from shocks.
+![GOOG Crisis Resilience Chart](<img width="1042" height="395" alt="GOOG Closing Price" src="https://github.com/user-attachments/assets/f9ce6f72-0278-4da3-93f7-2c07045e6fcf" />)
 
 ## Recommendation
 Multiple synthetic artefacts invalidate it for real-world healthcare insights; therefore, the dataset should not qualify for any serious healthcare analysis or modelling.
