@@ -103,7 +103,7 @@ GOOG stock bounces back strongly from every crisis. Handled the 2008 panic with 
 
 
 ## Complete Analysis
-[GOOG Analysis](GOOG_analysis.ipynb)
+View the full analysis here: [GOOG Analysis](GOOG_analysis.ipynb)
 (interactive charts + code)
 
 
