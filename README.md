@@ -9,8 +9,9 @@
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
 - [Analysis Finding](#analysis-finding)
 - [Insight](#insight)
-- [Recommendation](#recommendation)
 - [Visualization](#visualization)
+- [Complete Analysis](#complete-analysis)
+- [Recommendation](#recommendation)
 - [Author](#author)
 
 ## Project Overview
@@ -98,21 +99,20 @@ Looking at average returns by month, October consistently delivers the highest g
 GOOG stock bounces back strongly from every crisis. Handled the 2008 panic with quick recovery, didn't have a major drawdown in the COVID hit, and steadily climbed out of the 2022 slowdown, showing the stock's proven ability to recover from shocks.
 
 
+## Visualization
+
+
+## Complete Analysis
+[GOOG Analysis](GOOG_analysis.ipynb)
+(interactive charts + code)
+
+
 ## Recommendation
 **BUY & HOLD GOOG**  
 - Steady 20-year growth proves volatility handling ✅  
 - Survived **every crash** (2008, COVID, 2022) ✅  
 - Perfect for investors who want to save for future gain ✅
 
-
-
-
-## Visualization
-
-
-
-
-**Complete analysis**: `Healthcare_Analysis.ipynb` (interactive charts + code)
 
 ## Author
 [LinkedIn](https://www.linkedin.com/in/somadina-nwokora/)
