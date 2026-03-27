@@ -11,7 +11,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 - **📖 README.md** – Project overview 
 
   ## 🛠️ Tools Used
--  **Excel** – Data cleaning & pivot tables
+-  **Excel** – Initial dataset validation (rows/columns)
 -  **Power BI** – Interactive visualizations  
 -  **GitHub** – Hosting documented projects
 -  **Markdown** – Documentation (.md files)
