@@ -43,7 +43,7 @@ Work-in-progress charts showing screenshots of analysis steps. **[Process Charts
 
 ## 📈 Analysis Charts
 This folder holds all the final charts and visualizations created from this analysis.
-These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here: **[Analysis Charts](https://github.com/nwokora/1962-to-2022-ko-stock-analysis/tree/main/analysis_charts)**
+These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here: **[Analysis Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/analysis_charts)**
 
 ## 🔗 Data Source
 Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns). **[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
