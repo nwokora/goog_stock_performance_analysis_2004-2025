@@ -32,7 +32,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 6. Closing Price with Major Stress Periods Highlighted
 
 ## 💡 Key Insights
-KO achieved 140B total volume across 60 years (~15K trading days) at 2.33B average yearly, peaking at ~6B in 2008. Close price CAGR rose from $0.04 (1962) to $60.86 (2022), with a 48% win rate (close > open) and 1.74 average daily volatility. **[Key Insights](https://github.com/nwokora/1962-to-2022-ko-stock-analysis/blob/main/insights.md)**
+KO achieved 140B total volume across 60 years (~15K trading days) at 2.33B average yearly, peaking at ~6B in 2008. Close price CAGR rose from $0.04 (1962) to $60.86 (2022), with a 48% win rate (close > open) and 1.74 average daily volatility. **[Key Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
 
 ## 🗄️ Dataset
 **Raw Dataset** – Original KO stock data (1962-2022): open, high, low, close prices + daily volume (~15K trading days).  
