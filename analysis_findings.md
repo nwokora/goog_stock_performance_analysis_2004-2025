@@ -1,3 +1,5 @@
+# Key Findings from the GOOG Stock History Analysis (2004-2025).
+
 ## 📊 Performance KPIs
 **(GOOG Post-IPO (2004-2025): 50.8% Win Rate, 1.93% Volatility Across 5,478 Days)**
 - GOOG closed higher than open 50.8% of trading days over 5,478 sessions since 2004 IPO.
