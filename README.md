@@ -35,18 +35,18 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 6. Closing Price with Major Stress Periods Highlighted
 
 ## 💡 Key Insights
-GOOG (The Growth Powerhouse with Proven Resilience): 50.8% win rate, 1.93% volatility across 5,478 days, 46x average growth from 3.85 to 177.86, and October seasonality. GOOG delivers consistent outperformance through crises since its 2004 IPO. **[Key Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
+GOOG (The Growth Powerhouse with Proven Resilience): 50.8% win rate, 1.93% volatility across 5,478 days, 46x average growth from 3.85 to 177.86, and October seasonality. GOOG delivers consistent outperformance through crises since its 2004 IPO. **[See Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
 
 ## 🗄️ Dataset
 **Raw Dataset** – Original KO stock data (1962-2022): open, high, low, close prices + daily volume (~15K trading days).  
 **Cleaned Dataset** – Processed CSVs with optimized data types for Power BI analysis. **[Dataset](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/dataset)**
 
 ## ⚙️ Process Charts
-Work-in-progress charts showing screenshots of analysis steps. **[Process Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
+Work-in-progress charts showing screenshots of analysis steps. **[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
 
 ## 📈 Analysis Charts
 This folder holds all the final charts and visualizations created from this analysis.
-These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here: **[Analysis Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/analysis_charts)**
+These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here: **[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/analysis_charts)**
 
 ## 🔗 Data Source
 Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns). **[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
