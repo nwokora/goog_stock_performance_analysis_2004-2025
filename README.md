@@ -38,8 +38,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 GOOG (The Growth Powerhouse with Proven Resilience): 50.8% win rate, 1.93% volatility across 5,478 days, 46x average growth from 3.85 to 177.86, and October seasonality. GOOG delivers consistent outperformance through crises since its 2004 IPO. **[See Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
 
 ## 📉 Analysis Findings
-key data points and metrics extracted from the KO analysis. **[See Findings](https://github.com/nwokora/2004-to-2025-google-stock-analysis/main/analysis_findings.md)**
-
+key data points and metrics extracted from the KO analysis. **[See Findings](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/analysis_findings.md)**
 ## ⚙️ Process Charts
 Work-in-progress charts showing screenshots of analysis steps. **[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
 
