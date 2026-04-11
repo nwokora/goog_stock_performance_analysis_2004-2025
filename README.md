@@ -35,149 +35,27 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 6. Closing Price with Major Stress Periods Highlighted
 
 ## 💡 Key Insights
-GOOG (The Growth Powerhouse with Proven Resilience): 50.8% win rate, 1.93% volatility across 5,478 days, 46x average growth from 3.85 to 177.86, and October seasonality. GOOG delivers consistent outperformance through crises since its 2004 IPO. **[See Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
+Since its 2004 IPO, GOOG traded 584 billion shares over 5,478 sessions peaking at 18.5% volume in 2005 before troughing to 0.64% in low-turnover 2025 (daily volume down from 429M to 19M), while delivering 46x price growth (3.85 to 177.86, +4,520%), with 50.8% higher closes, and 1.93% volatility which signals scalable resilience amid crisis, especially the COVID crisis.
+**[See Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
 
 ## 📉 Analysis Findings
-key data points and metrics extracted from the KO analysis. **[See Findings](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/analysis_findings.md)**
+key data points and metrics extracted from the KO analysis.
+**[See Findings](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/analysis_findings.md)**
+
 ## ⚙️ Process Charts
-Work-in-progress charts showing screenshots of analysis steps. **[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
+Work-in-progress charts showing screenshots of analysis steps.
+**[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
 
 ## 📈 Analysis Charts
 This folder holds all the final charts and visualizations created from this analysis.
-These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here: **[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/analysis_charts)**
+These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here:
+**[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/analysis_charts)**
 
 ## 🗄️ Dataset
 **Raw Dataset** – Original KO stock data (1962-2022): open, high, low, close prices + daily volume (~15K trading days).  
-**Cleaned Dataset** – Processed CSVs with optimized data types for Power BI analysis. **[Dataset](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/dataset)**
+**Cleaned Dataset** – Processed CSVs with optimised data types for Power BI analysis.
+**[Dataset](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/dataset)**
 
 ## 🔗 Data Source
-Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns). **[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
-
-
-
-
-
-
-
-
-# 2004-2025 Google Stock Analysis
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Files Provided](#files-provided)
-- [Data Sources](#data-sources)
-- [Tools Used](#tools-used)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
-- [Analysis Finding](#analysis-finding)
-- [Insight](#insight)
-- [Visualization](#visualization)
-- [Complete Analysis](#complete-analysis)
-- [Recommendation](#recommendation)
-- [Author](#author)
-
-## Project Overview
-This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals a remarkable 20-year growth trajectory that saw the shares move from ~2.50 (August 19, 2004) to ~200 in 20 years (August 19, 2004 to August 2025), after it first entered its Initial Public Offering (IPO) on August 19, 2004.  
-It further narrows down the trend to mirror the 3 massive market crashes of the 2008 crisis, the COVID chaos, and the 2022 bear market.  
-Skills demonstrated include: data import/cleanup, crisis performance insights, clean matplotlib visualizations, as well as critical thinking and problem-solving, ideal for financial analysis insights.
-
-
-## Files Provided    
-
-## Data Sources
-Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns). [Download](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)
-
-## Tools Used
-**Excel** 
-- Initial data preview and exploration
-- Quick validation of column distributions
-
-**Python**
-- `pandas` (data cleaning and preparation)
-- `matplotlib` (creates visualization)
-
-**Workflow**: Excel preview → Pandas cleaning & analysis → Matplotlib charts
-
-## Data Cleaning and Preparation
-
-### Data Quality Check:
-
-**Column Standardisation**
-- Datetime standardisation `df["date"] = pd.to_datetime(df["date"])`  
-  *Converts string dates to proper datetime objects*
-- Date column indexing `df = df.set_index("date").sort_index()`  
-  *Transforms date column into date index for analysis*  
-
-**Missing Value Check**  
-- Check for missing value `df.isna().sum()`.  
-  *(All columns: No missing value)*  
-  
-**Duplicate Check**
-- Index dates: `df.index.duplicated().sum()` → *0 (Unique dates)*
-- Full rows:   `df.duplicated().sum()`     → *0 (No identical rows)*
-
-### Feature Engineering  
-- Daily price range `df["range"] = df["high"] - df["low"]`  
-- Daily % price change `df["return"] = df["close"].pct_change()`  
-- 20-day and 50-day Moving average `df["MA20"] = df["close"].rolling(window=20).mean()` and `df["MA50"] = df["close"].rolling(window=50).mean()`  
-
-## Exploratory Data Analysis and Data Analysis  
-
-**Analytical Methods Used**
-
-| Method | Purpose | Implementation |
-|--------|---------|----------------|
-| **Descriptive Statistics** | Dataset overview | `df.describe()` |
-| **Daily Returns** | Performance measurement | `df['close'].pct_change()` |
-| **Moving Averages** | Trend identification | `rolling(20/50).mean()` |
-| **Volatility Analysis** | Risk assessment | `std() × √252` (30.6% result) |
-| **Data Quality Checks** | Reliability validation | `isna().sum()`, `duplicated()` |
-| **Feature Engineering** | Enhanced analysis | Range, returns, MAs created |
-
-**Key Financial Metrics Calculated:**
-
-
-## Analysis Finding
-### 5 Business Questions Answered
-| Q | Question | Result |
-|---| ---------|--------|
-| **Q1** | **Which year saw the highest trading activity in GOOG shares, and what drove the volume spikes?** | 2005 saw the highest trading activity in GOOG shares (~108 billion), driven by the post-IPO rush. 2025 had the lowest (~4 billion) due to incomplete year data.|
-| **Q2** | **Which year had the highest average daily trading volume for GOOG shares, and why?**  | 2005 dominated GOOG's average daily trading volume (429 million shares/day) due to post-IPO excitement, while 2024 had the lowest (20 million shares/day) amid stock maturity and splits. |
-| **Q3** | **How do GOOG's average daily returns vary by month across 2004-2025?** | The monthly seasonality patterns of GOOG's 2004-2025 average daily returns show October as the strongest and February as the weakest. |
-| **Q4** | **GOOG's closing price evolution from IPO (2004) to 2025, including performance during major stress periods like the 2008 crisis, 2020 COVID crash, and 2022 bear market?** | GOOG showed 82x growth from ~$2.50 (2004 IPO) to ~$204 (2025). Handled 2008 (-55%, quick bounce), 2020 COVID (-30%, sharp recovery), 2022 (-40%, steady climb back). |
-| **Q5** | **How do GOOG's 20-day and 50-day moving averages reveal short-term trends and trading signals from 2020-2025?** | GOOG's 20-day and 50-day moving averages (MAs) reveal short-term trends through their direction and crossovers from 2020-2025. |
-
-
-## Insight
-### 1. Trading Volume Pattern
-When Google launched its IPO, 2005 exploded with massive trading volume, the highest in both total shares traded and average daily volume. This is largely due to the rush to own shares. As the stock appreciated post-IPO, volumes declined due to institutionalised trading. 2025 had the lowest total volume (incomplete year), and 2024 had the lowest average daily volume.
-
-
-### 2. Monthly Returns Pattern  
-Looking at average returns by month, October consistently delivers the highest gains for GOOG investors. On the other hand, investors earned less or even lost money in the months of February, June, and August.
-
-
-### 3. Stock Volatility Amid Crisis  
-GOOG stock bounces back strongly from every crisis. Handled the 2008 panic with quick recovery, didn't have a major drawdown in the COVID hit, and steadily climbed out of the 2022 slowdown, showing the stock's proven ability to recover from shocks.
-
-
-## Visualization  
-Key insights from GOOG stock data analysis:  
-<img src="https://raw.githubusercontent.com/Nwokora/2004-to-2025-Google-Stock-Analysis/main/GOOG%20Stock/GOOG%20Excel%20Preview.png" width="48%" height="300"/>
-
-
-
-## Complete Analysis
-[GOOG Analysis](<GOOG Stock Analysis.ipynb>)
-(interactive charts + code)
-
-
-## Recommendation
-**BUY & HOLD GOOG**  
-- Steady 20-year growth proves volatility handling ✅  
-- Survived **every crash** (2008, COVID, 2022) ✅  
-- Perfect for investors who want to save for future gain ✅
-
-
-## Author
-[LinkedIn](https://www.linkedin.com/in/somadina-nwokora/)
+Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns).
+**[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
