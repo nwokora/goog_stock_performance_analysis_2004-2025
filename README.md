@@ -8,7 +8,11 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 - **📈 analysis charts** – Final analysis visuals (PNG)
 - **⚙️ process charts** – Technical work steps visual (PNG) 
 - **💡 insights.md** – All insights from analysis 
-- **📖 README.md** – Project overview 
+- **📖 README.md** – Project overview
+
+## 💡 Key Insights
+Since its 2004 IPO, GOOG traded 584 billion shares over 5,478 sessions peaking at 18.5% volume in 2005 before troughing to 0.64% in low-turnover 2025 (daily volume down from 429M to 19M), while delivering 46x price growth (3.85 to 177.86, +4,520%), with 50.8% higher closes, and 1.93% volatility which signals scalable resilience amid crisis, especially the COVID crisis.
+**[See Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
 
   ## 🛠️ Tools Used
 -  **Excel** – Initial data preview and quick validation of rows & columns distributions
@@ -33,10 +37,6 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 4. Average Daily Return by Year
 5. Average Daily Return by Month
 6. Closing Price with Major Stress Periods Highlighted
-
-## 💡 Key Insights
-Since its 2004 IPO, GOOG traded 584 billion shares over 5,478 sessions peaking at 18.5% volume in 2005 before troughing to 0.64% in low-turnover 2025 (daily volume down from 429M to 19M), while delivering 46x price growth (3.85 to 177.86, +4,520%), with 50.8% higher closes, and 1.93% volatility which signals scalable resilience amid crisis, especially the COVID crisis.
-**[See Insights](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/insights.md)**
 
 ## 📉 Analysis Findings
 key data points and metrics extracted from the KO analysis.
