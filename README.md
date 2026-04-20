@@ -7,7 +7,8 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 - **🗄️ dataset** – Raw dataset and cleaned CSV files 
 - **📈 analysis charts** – Final analysis visuals (PNG)
 - **⚙️ process charts** – Technical work steps visual (PNG) 
-- **💡 insights.md** – All insights from analysis 
+- **💡 insights.md** – All insights from analysis
+- **📉 Analysis Findings** – All metrics and findings from the analysis
 - **📖 README.md** – Project overview
 
 ## 💡 Key Insights
@@ -42,14 +43,14 @@ Since its 2004 IPO, GOOG traded 584 billion shares over 5,478 sessions peaking a
 key data points and metrics extracted from the KO analysis.
 **[See Findings](https://github.com/nwokora/2004-to-2025-google-stock-analysis/blob/main/analysis_findings.md)**
 
-## ⚙️ Process Charts
-Work-in-progress charts showing screenshots of analysis steps.
-**[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
-
 ## 📈 Analysis Charts
 This folder holds all the final charts and visualizations created from this analysis.
 These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here:
 **[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/analysis_charts)**
+
+## ⚙️ Process Charts
+Work-in-progress charts showing screenshots of analysis steps.
+**[See Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
 
 ## 🗄️ Dataset
 **Raw Dataset** – Original KO stock data (1962-2022): open, high, low, close prices + daily volume (~15K trading days).  
