@@ -95,11 +95,15 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 
 ## 🧹 Data Cleaning and Preparation
 - Datetime standardization `df["date"] = pd.to_datetime(df["date"]`
-- Checked for duplicates (none were found).
-- Checked for missing values (none were found).
-- Standardized the date column format.
-- Converted income_level and subsidy_level into numeric values.
-- Aggregated the tables for analysis and visualization.
+- Date column indexing `df = df.set_index("date").sort_index()`
+- Checked for missing values (none were found) `df.isna().sum()`
+- Checked for duplicates (none were found) `df.index.duplicated().sum()`
+- Daily price range calculation `df["range"] = df["high"] - df["low"]`
+- Year column creation `df["Year"] = df.index.year`
+- Total Trading Days `days = np.busday_count('2004-08-19','2025-08-19')`
+- Win Rate Percentage (close > open) `df['Win'] = df['close'] > df['open']
+  win_rate = df['Win'].mean() * 100`
+- Daily Volatility `daily_volatility = df['return'].std() * 100`
 
 ## 📉 Analysis
 - **Average Fuel Price by Countries Analysis** – This analysis compared fuel prices across 84 countries in 7 regions to identify the 10 costliest and 10 most affordable countries. The findings showed that Europe accounted for 8 of the 10 highest-paying countries, while Africa and the Middle East accounted for most of the lowest-paying countries.
