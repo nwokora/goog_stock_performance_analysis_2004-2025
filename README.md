@@ -75,7 +75,7 @@ This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals 
 Skills demonstrated include data import and cleanup, crisis-performance analysis, clean matplotlib visualizations, and critical thinking and problem-solving.
 
 ## 🎯 Objective
-The objective of this analysis is to assess how fuel prices, tax percentages, subsidy support, and income levels shape fuel affordability across different continental regions and countries from 2020 to 2026, and to highlight the regions and countries most affected by affordability pressure.
+To analyze GOOG’s 21-year price performance from its IPO in 2004 through 2025, quantify its long-term growth, and evaluate how the stock fared during three major market crises (2008, COVID-19, and 2022) to assess its resilience and investment potential.
 
 ## 📊 Analysis Questions
 1. Total Trading Volume by Year.
@@ -106,9 +106,9 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 - Daily Volatility `daily_volatility = df['return'].std() * 100`
 
 ## 📉 Analysis
-- **Average Fuel Price by Countries Analysis** – This analysis compared fuel prices across 84 countries in 7 regions to identify the 10 costliest and 10 most affordable countries. The findings showed that Europe accounted for 8 of the 10 highest-paying countries, while Africa and the Middle East accounted for most of the lowest-paying countries.
-- **Average Fuel Price by Region** – This analysis compared average fuel prices across regions. Europe had the highest average price at 3.33, closely followed by Oceania at 3.29, while the Middle East recorded the lowest at 1.10, followed by South America at 1.26.
-- **Average Subsidy by Region** – This analysis compared average subsidy levels across regions. The Middle East had the highest average subsidy at 3.00, followed by South America at 2.43, while Oceania and Europe recorded the lowest values at 1.00 and 1.17, respectively.
+- **Total Trading Days** – This analysis shows the total trading days covered in the dataset, giving a total of 5,478 days.
+- **Win Rate Percentage (close > open)** – This analysis shows the percentage of the time the stock closed higher than it opened; the win rate came at at 50.8&, indicating a better gain.
+- **Average Daily Volatility** – This analysis compared average subsidy levels across regions. The Middle East had the highest average subsidy at 3.00, followed by South America at 2.43, while Oceania and Europe recorded the lowest values at 1.00 and 1.17, respectively.
 - **Average Tax Percentage by Region** – This analysis compared average tax percentages across regions. Oceania recorded the highest tax rate at 39%, followed by Europe at 35%, while South America had the lowest at 18%, and the Middle East at 20%.
 - **Share Percentage by Region and Income Level Analysis** – This analysis examined income distribution across regions to understand how regional income strength influences fuel affordability. The results showed that Oceania recorded 100% high-income share, Europe had 74% high and 26% middle, and North America had 67% high and 33% middle. Africa was dominated by low income at 74%, with 26% middle, while Asia and South America had a mix of the three income levels.
 - **Share Percentage by Region and Subsidy Level Analysis** – This analysis explored how subsidy levels vary across regions and how those differences influence fuel prices. The results showed that the Middle East had the highest share of very high subsidy countries at 56%, while Africa and South America also had some countries with very high subsidy levels. In contrast, Oceania recorded 100% low subsidy, and Europe was dominated by a low subsidy at 87%.
