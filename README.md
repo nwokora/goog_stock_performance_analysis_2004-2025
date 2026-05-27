@@ -60,3 +60,83 @@ Work-in-progress charts showing screenshots of analysis steps.
 ## 🔗 Data Source
 Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns).
 **[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
+
+
+
+
+
+
+
+# 💹 Global Fuel Prices Analysis (2020-2026)
+
+## 📌 Overview
+This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals a remarkable 21-year growth trajectory, with shares rising from ~2.50 at its IPO on August 19, 2004, to ~200 by August 2025. The analysis mirrors how the stock performed through three major market downturns: the 2008 financial crisis, the COVID-19 market chaos, and the 2022 bear market.
+
+Skills demonstrated include data import and cleanup, crisis-performance analysis, clean matplotlib visualizations, and critical thinking and problem-solving.
+
+## 🎯 Objective
+The objective of this analysis is to assess how fuel prices, tax percentages, subsidy support, and income levels shape fuel affordability across different continental regions and countries from 2020 to 2026, and to highlight the regions and countries most affected by affordability pressure.
+
+## 📊 Analysis Questions
+1. Total Trading Volume by Year.
+2. Average Daily Trading Volume by Year.
+3. Average Closing Price by Year.
+4. Average Daily Return by Year.
+5. Average Daily Return by Month.
+6. Closing Price with Major Stress Periods Highlighted.
+   
+## 🛠️ Tools Used
+-  Excel (Initial data preview and quick validation of rows & columns distributions)
+-  Python – Pandas (data cleaning & preparation) and Matplotlib (visualization)
+
+## 🔗 Data Source
+Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns).
+**[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
+
+## 🧹 Data Cleaning and Preparation
+- Datetime standardization `df["date"] = pd.to_datetime(df["date"]`
+- Checked for duplicates (none were found).
+- Checked for missing values (none were found).
+- Standardized the date column format.
+- Converted income_level and subsidy_level into numeric values.
+- Aggregated the tables for analysis and visualization.
+
+## 📉 Analysis
+- **Average Fuel Price by Countries Analysis** – This analysis compared fuel prices across 84 countries in 7 regions to identify the 10 costliest and 10 most affordable countries. The findings showed that Europe accounted for 8 of the 10 highest-paying countries, while Africa and the Middle East accounted for most of the lowest-paying countries.
+- **Average Fuel Price by Region** – This analysis compared average fuel prices across regions. Europe had the highest average price at 3.33, closely followed by Oceania at 3.29, while the Middle East recorded the lowest at 1.10, followed by South America at 1.26.
+- **Average Subsidy by Region** – This analysis compared average subsidy levels across regions. The Middle East had the highest average subsidy at 3.00, followed by South America at 2.43, while Oceania and Europe recorded the lowest values at 1.00 and 1.17, respectively.
+- **Average Tax Percentage by Region** – This analysis compared average tax percentages across regions. Oceania recorded the highest tax rate at 39%, followed by Europe at 35%, while South America had the lowest at 18%, and the Middle East at 20%.
+- **Share Percentage by Region and Income Level Analysis** – This analysis examined income distribution across regions to understand how regional income strength influences fuel affordability. The results showed that Oceania recorded 100% high-income share, Europe had 74% high and 26% middle, and North America had 67% high and 33% middle. Africa was dominated by low income at 74%, with 26% middle, while Asia and South America had a mix of the three income levels.
+- **Share Percentage by Region and Subsidy Level Analysis** – This analysis explored how subsidy levels vary across regions and how those differences influence fuel prices. The results showed that the Middle East had the highest share of very high subsidy countries at 56%, while Africa and South America also had some countries with very high subsidy levels. In contrast, Oceania recorded 100% low subsidy, and Europe was dominated by a low subsidy at 87%.
+- **Low-Income Subsidy Index Analysis** – This analysis examined how subsidy levels help reduce fuel affordability pressure in low-income countries. The best-performing countries were Venezuela, Libya, Egypt, and Nigeria, while Zimbabwe, Rwanda, Zambia, Mozambique, and Uganda ranked among the worst.
+- **Yearly Price Analysis** – This analysis tracked fuel price trends over the last six years. The results showed a general upward trend, with average fuel prices increasing from 1.32 in 2020 to 2.37 in 2026. There was a slight dip in 2023, after which prices rose again.
+
+## 🔭 Visualizations
+<img width="627" height="254" alt="Average Fuel Price by Region" src="https://github.com/user-attachments/assets/d182547e-5dd3-4fd3-8ae9-3f1d0985add8" />   
+
+**Average fuel prices varied widely by region, with Oceania and Europe recording the highest values overall. The Middle East had the lowest average fuel price, while South America and Africa also had relatively low prices.**
+
+<img width="627" height="254" alt="Average Tax Percentage by Region" src="https://github.com/user-attachments/assets/bc877c97-3214-4388-8399-2d40f03572f1" />   
+
+**Average tax percentages also differed noticeably by region. Oceania and Europe generally had the highest tax burdens, while South America had the lowest average tax percentage, followed by the Middle East.**
+
+<img width="906" height="256" alt="Subsidy Charts" src="https://github.com/user-attachments/assets/e207c749-ec55-4400-bfb4-7cef93a42453" />
+
+**The Middle East stands out with the highest average subsidy, and that matches its high share of Very High subsidy levels, while South America and Africa also show relatively stronger support than most regions. At the other end, Europe and especially Oceania have the lowest average subsidies, with Oceania being entirely in the Low subsidy category and Europe also heavily concentrated there. Overall, the pattern suggests that subsidy support is much stronger in the Middle East and weaker in Europe and Oceania.**
+
+<img width="629" height="255" alt="Share_pct by Region and Income-level" src="https://github.com/user-attachments/assets/baf4febd-65f2-48d7-ba8c-71246bd0bdba" />
+
+**Oceania is the most concentrated in the High category, with Europe and North America also leaning strongly toward High. In contrast, Africa is mostly in the Low category, and South America dominates the Middle level. Asia shows a more mixed split across the three categories, while the Middle East shows a split only between Middle and High, with High making up the larger portion.**
+
+## 💡 Key Insights
+Fuel affordability varies significantly across continental regions and countries from 2020 to 2026. The analysis shows that Europe and Oceania generally face the highest fuel prices and tax burdens. At the same time, the Middle East and South America record the lowest prices, probably due to strong subsidy support and low taxes. Regions like Oceania, Europe, and North America, with stronger income concentration, are better positioned to absorb the brunt of these low subsidies and high taxes, while Africa may likely face greater affordability pressure due to low income. Overall, fuel affordability is shaped by the combined impact of prices, taxes, subsidies, and income levels, with the greatest strain falling on specific regions and countries that are most exposed to these pressures. Policymakers should therefore balance taxation with targeted subsidies, especially in lower-income regions, to improve affordability.
+**[See All Insights](https://github.com/nwokora/2020-2026_global_fuel_prices_analysis/blob/main/insights.md)**
+
+## 📂 Repository Layout  
+- **📈 analysis charts** – Final analysis visuals (PNG)
+- **🗄️ dataset** – Raw dataset and cleaned CSV files
+- **📋 group tables** – Pandas aggregated tables in CSV files
+- **⚙️ process charts** – Technical work steps visual (PNG)
+- **📖 README.md** – Project overview
+- **🔎 Analysis Findings** – All metrics and findings from the analysis
+- **💡 insights.md** – All insights from analysis
