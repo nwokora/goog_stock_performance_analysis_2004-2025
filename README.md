@@ -113,7 +113,7 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 - **Average Daily Trading Volume by Year** – This analysis examines GOOG's average daily trading volume each year over the 21-year period, showing that the highest average daily volume was in 2005 with 429,169,260 shares/day and the lowest was in 2024 with 19,702,144 shares/day.
 - **Average Closing Price by Year** – This analysis tracks GOOG's average closing price each year from 2004 to 2025, revealing a strong upward trend from the lowest yearly average of 3.85 to the highest yearly average of 177.86.
 - **Average Daily Return by Year** – This analysis calculates GOOG's average daily return for each year from 2004 to 2025, showing that the best year was 2004 with an average daily return of +0.0071, while the worst was 2008 at -0.0026. The years 2014 and 2022 also posted negative average daily returns, similar to 2008.
-- **Yearly Price Analysis** – This analysis tracked fuel price trends over the last six years. The results showed a general upward trend, with average fuel prices increasing from 1.32 in 2020 to 2.37 in 2026. There was a slight dip in 2023, after which prices rose again.
+- **Average Daily Return by Month** – This analysis examines GOOG's average daily return for each month across the 21-year period, revealing that October delivers the strongest performance with an average daily return of +0.0037, while February performs the weakest at -0.0014.
 
 ## 🔭 Visualizations
 <img width="627" height="254" alt="Average Fuel Price by Region" src="https://github.com/user-attachments/assets/d182547e-5dd3-4fd3-8ae9-3f1d0985add8" />   
