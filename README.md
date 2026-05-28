@@ -1,4 +1,4 @@
-# 💹 Global Fuel Prices Analysis (2020-2026)
+# 💹 Google (GOOG) Stock Performance Analysis (2004-2025)
 
 ## 📌 Overview
 This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals a remarkable 21-year growth trajectory, with shares rising from ~2.50 at its IPO on August 19, 2004, to ~200 by August 2025. The analysis mirrors how the stock performed through three major market downturns: the 2008 financial crisis, the COVID-19 market chaos, and the 2022 bear market.
