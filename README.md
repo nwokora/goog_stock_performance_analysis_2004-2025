@@ -116,7 +116,7 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 - **Average Daily Return by Month** – This analysis examines GOOG's average daily return for each month across the 21-year period, revealing that October delivers the strongest performance with an average daily return of +0.0037, while February performs the weakest at -0.0014.
 
 ## 🔭 Visualizations
-<img width="627" height="254" alt="Average Fuel Price by Region" src="https://github.com/user-attachments/assets/d182547e-5dd3-4fd3-8ae9-3f1d0985add8" />   
+<img width="1024" height="409" alt="03_goog_total_trading_volume_by_year" src="https://github.com/user-attachments/assets/c4d2b0e3-0e54-4f37-9552-ef7dcd95c341" />
 
 **Average fuel prices varied widely by region, with Oceania and Europe recording the highest values overall. The Middle East had the lowest average fuel price, while South America and Africa also had relatively low prices.**
 
