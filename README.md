@@ -58,7 +58,7 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 
 <img width="962" height="354" alt="Screenshot 2026-05-29 125650" src="https://github.com/user-attachments/assets/9fbefec4-1e1f-4da8-acaa-f7cd52e91b22" />
 
-**2004 delivered GOOG's highest average daily return at +0.0071, while 2008 recorded the lowest at -0.0026. 2022 also posted a negative average daily return. These negative years align with major market stress periods: the 2008 financial crisis and the 2022 bear market, which was exacerbated by post-COVID-19 economic adjustments. Rather than undermining confidence, these downturns actually highlight GOOG's resilience; the stock recovered strongly after both crises and continued its upward trajectory.**
+**2004 delivered GOOG's highest average daily return at +0.0071 (0.71%), while 2008 recorded the lowest at -0.0026 (-0.26%). 2022 also posted a negative average daily return. These negative years align with major market stress periods: the 2008 financial crisis and the 2022 bear market, which was exacerbated by post-COVID-19 economic adjustments. Rather than undermining confidence, these downturns actually highlight GOOG's resilience; the stock recovered strongly after both crises and continued its upward trajectory.**
 
 <img width="979" height="443" alt="07_goog_average_daily_return_by_month" src="https://github.com/user-attachments/assets/e4b2068c-db32-4289-8dee-748b5303935a" />
 
